@@ -1,0 +1,13 @@
+.topGreen {
+    background-color: rgb(88, 224, 122);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.name {
+    text-align: center;
+    margin: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
