@@ -44,6 +44,8 @@ p {
   font-size: 20px;
 }
 
-.description {
-
+ul {
+  line-height: 150%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
 }
