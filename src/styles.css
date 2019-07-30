@@ -1,16 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 .button--navigation {
     background-color: rgb(219, 221, 219); 
-    border: 2px solid black;
+    border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: none;
+  border-left: none;
     color: black;
     padding: 15px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 2px;
-    border-radius: 5px;
+    width: 16.66%;
   }
+
+.button--navigation:hover {
+  color: blue;
+}
 
   h2 {
       text-align: center;
