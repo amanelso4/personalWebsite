@@ -1,4 +1,7 @@
-.skills {
-    background-color: white;
-
+.skillcol {
+    border: 2px solid rgb(88, 224, 122);
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
