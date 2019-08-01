@@ -4,8 +4,37 @@
     padding: 10px;
     padding-right: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 15px;
 }
 
 .row {
   width: 100%;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(88, 224, 122);
+  color: white;
+}
+
+
