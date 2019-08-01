@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { JobHistoryComponent } from './job-history/job-history.component';
 import { CampusInvolvementComponent } from './campus-involvement/campus-involvement.component';
 import { SkillsComponent } from './skills/skills.component';
-import { CoursesComponent } from './courses/courses.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 
 const routes: Routes = [
@@ -19,7 +18,6 @@ const routes: Routes = [
   {path: 'jobs', component: JobHistoryComponent},
   {path: 'rockchalk', component: CampusInvolvementComponent},
   {path: 'skills', component: SkillsComponent},
-  {path: 'courses', component: CoursesComponent},
   {path: 'contact', component: ContactMeComponent},
 ];
 
@@ -32,7 +30,6 @@ const routes: Routes = [
     JobHistoryComponent,
     CampusInvolvementComponent,
     SkillsComponent,
-    CoursesComponent,
     ContactMeComponent
   ],
   imports: [
