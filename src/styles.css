@@ -32,3 +32,15 @@
 
 }
 
+.jobTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.row {
+  margin: 25px;
+}
+
+.company {
+  font-size: 24px;
+}
