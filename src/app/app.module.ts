@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
-
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 
 
 import { HeaderComponent } from './header/header.component';
@@ -38,6 +38,7 @@ const routes: Routes = [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(routes),
+    Ng2CarouselamosModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
