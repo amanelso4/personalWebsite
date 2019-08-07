@@ -11,7 +11,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class CampusInvolvementComponent implements OnInit {
   showNavigationArrows = false;
   showNavigationIndicators = false;
-  images = ['./assets/real2.jpg', './assets/fish.jpg'];
+  images = ['./assets/real2.jpg', './assets/fish.jpg', './assets/fruit.jpg' ];
   constructor(config: NgbCarouselConfig) {
     config.showNavigationArrows = true;
     config.showNavigationIndicators = true;
