@@ -32,37 +32,47 @@
   those performances.</p>
 </div>
 </div>
+<hr>
 <div class="row">
   <p class="jobTitle">Study Abroad</p>
 </div>
 <div class="row">
   <div class="col-lg-6">
-    <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+    <ngb-carousel *ngIf="images" [showNavigationArrows]="!showNavigationArrows" [showNavigationIndicators]="!showNavigationIndicators">
       <ng-template ngbSlide *ngFor="let image of images">
         <div class="picsum-img-wrapper">
           <img [src]="image" alt="Random slide">
         </div>
         <div class="carousel-caption">
-          <h3>No mouse navigation</h3>
-          <p>This carousel hides navigation arrows and indicators.</p>
+          <p>Study Abroad trip 2019</p>
         </div>
       </ng-template>
     </ngb-carousel>
-
-    <hr>
-
-    <div class="btn-group" role="group" aria-label="Carousel toggle controls">
-      <button type="button" (click)="showNavigationArrows = !showNavigationArrows" class="btn btn-outline-dark btn-sm">Toggle navigation arrows</button>
-      <button type="button" (click)="showNavigationIndicators = !showNavigationIndicators" class="btn btn-outline-dark btn-sm">Toggle navigation indicators</button>
-    </div>
-
-
   </div>
   <div class="col-lg-6">
-    carousel
+    <p class="company">SELF & BLP in Slovenia</p>
+    <p class="date">Summer 2019</p>
+    <ul>
+      <li>Traveled to the small European country of Slovenia to learn about international business and engineering.</li>
+      <li>Visited small businesses and large companies to diversify business knowledge.</li>
+      <li>Studied European culture and broadened my world views.</li>
+      <li>Made a 1 day trip to Venice, Italy.</li>
+      <li>Networked with group of 30 KU engineering and business students on the trip.</li>
+    </ul>
   </div>
 </div>
+<hr>
 <div class="row">
   <p class="jobTitle">Women In Computing</p>
+</div>
+<div class="row">
+  information/animations about WIC
+</div>
+<hr>
+<div class="row">
+  <p class="jobTitle">Honors Program</p>
+</div>
+<div class="row">
+  information/animations about Honors program
 </div>
 
