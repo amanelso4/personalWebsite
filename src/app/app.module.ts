@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
-import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { HeaderComponent } from './header/header.component';
@@ -13,6 +13,7 @@ import { JobHistoryComponent } from './job-history/job-history.component';
 import { CampusInvolvementComponent } from './campus-involvement/campus-involvement.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -32,15 +33,16 @@ const routes: Routes = [
     JobHistoryComponent,
     CampusInvolvementComponent,
     SkillsComponent,
-    ContactMeComponent
+    ContactMeComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(routes),
-    Ng2CarouselamosModule,
+    NgbModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, CampusInvolvementComponent]
 })
 export class AppModule { }

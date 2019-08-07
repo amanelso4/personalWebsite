@@ -32,18 +32,47 @@
   those performances.</p>
 </div>
 </div>
+<hr>
 <div class="row">
   <p class="jobTitle">Study Abroad</p>
 </div>
 <div class="row">
   <div class="col-lg-6">
-    info text
+    <ngb-carousel *ngIf="images" [showNavigationArrows]="!showNavigationArrows" [showNavigationIndicators]="!showNavigationIndicators">
+      <ng-template ngbSlide *ngFor="let image of images">
+        <div class="picsum-img-wrapper">
+          <img [src]="image" alt="Random slide">
+        </div>
+        <div class="carousel-caption">
+          <p>Study Abroad trip 2019</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
   </div>
   <div class="col-lg-6">
-    carousel
+    <p class="company">SELF & BLP in Slovenia</p>
+    <p class="date">Summer 2019</p>
+    <ul>
+      <li>Traveled to the small European country of Slovenia to learn about international business and engineering.</li>
+      <li>Visited small businesses and large companies to diversify business knowledge.</li>
+      <li>Studied European culture and broadened my world views.</li>
+      <li>Made a 1 day trip to Venice, Italy.</li>
+      <li>Networked with group of 30 KU engineering and business students on the trip.</li>
+    </ul>
   </div>
 </div>
+<hr>
 <div class="row">
   <p class="jobTitle">Women In Computing</p>
+</div>
+<div class="row">
+  information/animations about WIC
+</div>
+<hr>
+<div class="row">
+  <p class="jobTitle">Honors Program</p>
+</div>
+<div class="row">
+  information/animations about Honors program
 </div>
 
