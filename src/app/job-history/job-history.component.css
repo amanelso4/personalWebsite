@@ -4,7 +4,8 @@ p {
 }
 
 .job {
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
   border: 10px darkgray;
 
 }
@@ -20,11 +21,16 @@ p {
 
 
 .descriptionHeader {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-ul {
-  line-height: 150%;
+.info {
+  font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 18px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
