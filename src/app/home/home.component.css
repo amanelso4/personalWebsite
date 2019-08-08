@@ -2,6 +2,7 @@
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 125%;
+    margin: 25px;
 }
 
 .signatureName {
@@ -21,18 +22,51 @@
 .margin {
     margin: 50px;
     margin-bottom: 25px;
-    margin-top: 25px;
 }
 
 .me {
     border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .name {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
-  padding-bottom: 20px;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+.obj {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.row {
+  margin: 25px;
+  padding: 25px;
+}
+
+.school {
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+.des {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.edu {
+  text-align: center;
 }
 
 
