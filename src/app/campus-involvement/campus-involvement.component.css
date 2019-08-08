@@ -59,6 +59,11 @@ th {
   background-color: rgb(88, 224, 122);
 }
 
+.border {
+  border-width: 5px;
+  border-color: rgb(88, 224, 122);
+}
+
 
 
 
