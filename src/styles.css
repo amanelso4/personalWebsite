@@ -77,3 +77,9 @@ th {
   text-align: left;
   background-color: rgb(88, 224, 122);
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
