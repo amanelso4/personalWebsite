@@ -39,7 +39,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes, {useHash: true}),
+    RouterModule.forRoot(routes, { useHash: true, relativeLinkResolution: 'legacy' }),
     NgbModule,
   ],
   providers: [],
